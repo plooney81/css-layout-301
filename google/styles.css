@@ -117,6 +117,10 @@ body {
     border: 1px solid rgb(172, 172, 172)
 }
 
+.mic:hover {
+    cursor: pointer;
+}
+
 .foot{
     position: fixed;
     width: 100%;
