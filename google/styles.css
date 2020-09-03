@@ -111,6 +111,12 @@ body {
     border-radius: 5px;
 }
 
+.buttons div:hover{
+    cursor: pointer;
+    /* box-shadow: 0 0 4px rgba(0, 0, 0, 1); */
+    border: 1px solid rgb(172, 172, 172)
+}
+
 .foot{
     position: fixed;
     width: 100%;
@@ -125,3 +131,17 @@ body {
     align-items: center;
     padding: 10px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.p a {
+    text-decoration: none;
+    color: white;
+} 
