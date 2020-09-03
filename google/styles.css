@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 185px;
+}
+
+
+.nav {
+    margin-top: 15px;
+    width: 95%;
+    justify-content: space-between;
+    font-size: 1.25vh;
+}
+
+.nav div {
+    display: flex;
+    align-items: center;
+}
+
+.nav div div {
+    padding: 0 5px;
+}
+
+.apps img{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.p {
+    color: white;
+    background-color: rgb(100, 120, 121);
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img{
+    height: auto;
+    width: 33vw;
+}
+
+.bar {
+    justify-content: space-between;
+    min-width: 50vw;
+    height: 5vh;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+.bar img, .bar svg {
+    width: 20px;
+    height: 20px;
+    margin: 1.25vh;
+}
+
+.buttons {
+    font-size: 2vh;
+    width: 27vw;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.buttons div {
+    background-color: rgb(234, 234, 234);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.foot{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(234, 234, 234);
+    bottom: 0;
+    height: 40px;
+}
+
+.foot div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
