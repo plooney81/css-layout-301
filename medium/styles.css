@@ -69,7 +69,36 @@ body {
 
 /* Author section */
 .author {
+    margin: 40px 0;
     border: 2px solid red;
     display: flex;
     flex-direction: row;
+    width: 75%
+}
+.author img {
+    width: 50px;
+    height: auto;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+}
+.second, .third p, .third span {
+    color: rgb(160, 160, 160);
+    font-size: 14px;
+}
+.author div {
+    margin-left: 5px;
+}
+.third {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.third p, .third span {
+    margin: 0 2px;
+}
+
+span {
+    border: 1px solid red;
 }
